@@ -3,15 +3,23 @@
 [ext_resource type="Script" uid="uid://dnl6xkfoktlgo" path="res://cars/frist_car/main_car.gd" id="1_gj4h3"]
 [ext_resource type="PackedScene" uid="uid://dv6orjrau2ktw" path="res://cars/frist_car/forklift-2.glb" id="1_t7mjv"]
 
-[node name="MainCar" type="Node3D" unique_id=671266739]
+[sub_resource type="BoxShape3D" id="BoxShape3D_gj4h3"]
+size = Vector3(1.194458, 2.1357727, 3.6539612)
+
+[node name="MainCar" type="CharacterBody3D" unique_id=915566620]
 script = ExtResource("1_gj4h3")
 
 [node name="Sketchfab_Scene" parent="." unique_id=1797203768 instance=ExtResource("1_t7mjv")]
 
 [node name="Camera3D" type="Camera3D" parent="." unique_id=791115018]
 transform = Transform3D(-1, -1.776357e-15, -8.7422784e-08, -3.015399e-08, 0.9386316, 0.34492147, 8.2057774e-08, 0.34492147, -0.9386316, 0, 2.870019, -4.0084066)
+current = true
 
 [node name="DirectionalLight3D" type="DirectionalLight3D" parent="." unique_id=583254119]
 transform = Transform3D(-0.9998951, 0, -0.014485719, 0, 1, 0, 0.014485719, 0, -0.9998951, 0, 0.3514698, 1.5847397)
 light_energy = 2.0
 sky_mode = 1
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="." unique_id=1683153283]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.022399902, 1.1051483, 0.18260193)
+shape = SubResource("BoxShape3D_gj4h3")

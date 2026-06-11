@@ -7,42 +7,46 @@
 [node name="City" type="Node3D" unique_id=1706292070]
 
 [node name="StraightRoad" parent="." unique_id=483779229 instance=ExtResource("1_s250v")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 10, 0)
+
+[node name="StraightRoad13" parent="." unique_id=1235876519 instance=ExtResource("1_s250v")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, -0.08358002, 0)
 
 [node name="StraightRoad2" parent="." unique_id=794235840 instance=ExtResource("1_s250v")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -30.569668)
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 10, -30.569668)
 
 [node name="StraightRoad3" parent="." unique_id=970384481 instance=ExtResource("2_0ujk7")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -50.335613)
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 10, -50.335613)
 
 [node name="StraightRoad4" parent="." unique_id=348435378 instance=ExtResource("2_0ujk7")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 15.650909, 0, -58.161068)
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 15.650909, 10, -58.161068)
 
 [node name="StraightRoad" parent="StraightRoad4" unique_id=1840093951 instance=ExtResource("1_s250v")]
 transform = Transform3D(-4.371139e-08, 0, 1, 0, 1, 0, -1, 0, -4.371139e-08, 24.750282, 0, -8.007442)
 
 [node name="StraightRoad5" parent="." unique_id=703506610 instance=ExtResource("2_0ujk7")]
-transform = Transform3D(-4.371139e-08, 0, 1, 0, 1, 0, -1, 0, -4.371139e-08, 67.608315, 0, -58.144955)
+transform = Transform3D(-4.371139e-08, 0, 1, 0, 1, 0, -1, 0, -4.371139e-08, 67.608315, 10, -58.144955)
 
 [node name="StraightRoad6" parent="." unique_id=711066729 instance=ExtResource("1_s250v")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 67.605835, 0, -38.529266)
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 67.605835, 10, -38.529266)
 
 [node name="StraightRoad7" parent="." unique_id=2107034944 instance=ExtResource("2_0ujk7")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 59.66475, 0, -10.964882)
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 59.66475, 10, -10.964882)
 
 [node name="StraightRoad8" parent="." unique_id=1959979932 instance=ExtResource("1_s250v")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 59.763565, 0, 3.2598267)
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 59.763565, 10, 3.2598267)
 
 [node name="StraightRoad9" parent="." unique_id=1432420553 instance=ExtResource("2_0ujk7")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 52.157272, 0, 21.421738)
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 52.157272, 10, 21.421738)
 
 [node name="StraightRoad10" parent="." unique_id=1595337581 instance=ExtResource("1_s250v")]
-transform = Transform3D(-4.371139e-08, 0, 1, 0, 1, 0, -1, 0, -4.371139e-08, 33.573593, 0, 21.537788)
+transform = Transform3D(-4.371139e-08, 0, 1, 0, 1, 0, -1, 0, -4.371139e-08, 33.573593, 10, 21.537788)
 
 [node name="StraightRoad12" parent="." unique_id=1996358430 instance=ExtResource("1_s250v")]
-transform = Transform3D(-4.371139e-08, 0, 1, 0, 1, 0, -1, 0, -4.371139e-08, 26.53424, 0, 21.537788)
+transform = Transform3D(-4.371139e-08, 0, 1, 0, 1, 0, -1, 0, -4.371139e-08, 26.53424, 10, 21.537788)
 
 [node name="StraightRoad11" parent="." unique_id=41322387 instance=ExtResource("2_0ujk7")]
-transform = Transform3D(-4.371139e-08, 0, 1, 0, 1, 0, -1, 0, -4.371139e-08, 8.02615, 0, 21.37941)
+transform = Transform3D(-4.371139e-08, 0, 1, 0, 1, 0, -1, 0, -4.371139e-08, 8.02615, 10, 21.37941)
 
 [node name="MainCar" parent="." unique_id=671266739 instance=ExtResource("3_0ujk7")]
-transform = Transform3D(-1, 0, -1.509958e-07, 0, 1, 0, 1.509958e-07, 0, -1, 0, 0.5, 0)
+transform = Transform3D(-1, 0, -1.509958e-07, 0, 1, 0, 1.509958e-07, 0, -1, 0, 11.20854, 0)
