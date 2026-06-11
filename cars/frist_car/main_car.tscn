@@ -4,7 +4,7 @@
 [ext_resource type="PackedScene" uid="uid://dv6orjrau2ktw" path="res://cars/frist_car/forklift-2.glb" id="1_t7mjv"]
 
 [sub_resource type="BoxShape3D" id="BoxShape3D_gj4h3"]
-size = Vector3(1.194458, 2.1357727, 3.6539612)
+size = Vector3(1.194458, 2.2168121, 3.6539612)
 
 [node name="MainCar" type="CharacterBody3D" unique_id=915566620]
 script = ExtResource("1_gj4h3")
@@ -21,5 +21,5 @@ light_energy = 2.0
 sky_mode = 1
 
 [node name="CollisionShape3D" type="CollisionShape3D" parent="." unique_id=1683153283]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.022399902, 1.1051483, 0.18260193)
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.022399902, 1.0646286, 0.18260193)
 shape = SubResource("BoxShape3D_gj4h3")

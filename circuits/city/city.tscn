@@ -9,9 +9,6 @@
 [node name="StraightRoad" parent="." unique_id=483779229 instance=ExtResource("1_s250v")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 10, 0)
 
-[node name="StraightRoad13" parent="." unique_id=1235876519 instance=ExtResource("1_s250v")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, -0.08358002, 0)
-
 [node name="StraightRoad2" parent="." unique_id=794235840 instance=ExtResource("1_s250v")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 10, -30.569668)
 
