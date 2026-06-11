@@ -1,0 +1,15 @@
+# Godot 4+
+.godot/
+.import/
+export.cfg
+export_presets.cfg
+*.translation
+
+# OS/editor noise
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+
+# Android export artifacts
+/android/
