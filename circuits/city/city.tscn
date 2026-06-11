@@ -4,7 +4,19 @@
 [ext_resource type="PackedScene" uid="uid://dnmhuuq4badvu" path="res://items/roads/turn_road.tscn" id="2_0ujk7"]
 [ext_resource type="PackedScene" uid="uid://b0kgq51mptqwo" path="res://cars/frist_car/main_car.tscn" id="3_0ujk7"]
 
+[sub_resource type="ProceduralSkyMaterial" id="ProceduralSkyMaterial_0ujk7"]
+
+[sub_resource type="Sky" id="Sky_3cf3d"]
+sky_material = SubResource("ProceduralSkyMaterial_0ujk7")
+
+[sub_resource type="Environment" id="Environment_fp4w2"]
+background_mode = 2
+sky = SubResource("Sky_3cf3d")
+
 [node name="City" type="Node3D" unique_id=1706292070]
+
+[node name="WorldEnvironment" type="WorldEnvironment" parent="." unique_id=1166434490]
+environment = SubResource("Environment_fp4w2")
 
 [node name="StraightRoad" parent="." unique_id=483779229 instance=ExtResource("1_s250v")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 10, 0)
