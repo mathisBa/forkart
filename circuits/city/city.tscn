@@ -2,6 +2,7 @@
 
 [ext_resource type="PackedScene" uid="uid://dkoa4tycv3gl4" path="res://items/roads/straight_road.tscn" id="1_s250v"]
 [ext_resource type="PackedScene" uid="uid://dnmhuuq4badvu" path="res://items/roads/turn_road.tscn" id="2_0ujk7"]
+[ext_resource type="PackedScene" uid="uid://b0kgq51mptqwo" path="res://cars/frist_car/main_car.tscn" id="3_0ujk7"]
 
 [node name="City" type="Node3D" unique_id=1706292070]
 
@@ -42,3 +43,6 @@ transform = Transform3D(-4.371139e-08, 0, 1, 0, 1, 0, -1, 0, -4.371139e-08, 26.5
 
 [node name="StraightRoad11" parent="." unique_id=41322387 instance=ExtResource("2_0ujk7")]
 transform = Transform3D(-4.371139e-08, 0, 1, 0, 1, 0, -1, 0, -4.371139e-08, 8.02615, 0, 21.37941)
+
+[node name="MainCar" parent="." unique_id=671266739 instance=ExtResource("3_0ujk7")]
+transform = Transform3D(-1, 0, -8.742278e-08, 0, 1, 0, 8.742278e-08, 0, -1, 0, 0.5, 0)

@@ -1,0 +1,10 @@
+[gd_scene format=3 uid="uid://b0kgq51mptqwo"]
+
+[ext_resource type="PackedScene" uid="uid://dv6orjrau2ktw" path="res://cars/frist_car/forklift-2.glb" id="1_t7mjv"]
+
+[node name="MainCar" type="Node3D" unique_id=671266739]
+
+[node name="Sketchfab_Scene" parent="." unique_id=1797203768 instance=ExtResource("1_t7mjv")]
+
+[node name="Camera3D" type="Camera3D" parent="." unique_id=791115018]
+transform = Transform3D(-1, -1.776357e-15, -8.7422784e-08, -3.015399e-08, 0.9386316, 0.34492147, 8.2057774e-08, 0.34492147, -0.9386316, 0, 2.870019, -4.0084066)
