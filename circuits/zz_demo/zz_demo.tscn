@@ -1,0 +1,24 @@
+[gd_scene format=3 uid="uid://p7qc3xjiw58h"]
+
+[ext_resource type="PackedScene" uid="uid://dkoa4tycv3gl4" path="res://items/roads/straight_road.tscn" id="1_eucx4"]
+[ext_resource type="PackedScene" uid="uid://tryece30j3hk" path="res://cars/animal/ch_14_non_pbr.tscn" id="2_4gloa"]
+
+[sub_resource type="ProceduralSkyMaterial" id="ProceduralSkyMaterial_p4h27"]
+
+[sub_resource type="Sky" id="Sky_3cf3d"]
+sky_material = SubResource("ProceduralSkyMaterial_p4h27")
+
+[sub_resource type="Environment" id="Environment_iiida"]
+background_mode = 2
+sky = SubResource("Sky_3cf3d")
+
+[node name="ZzDemo" type="Node3D" unique_id=1079568120]
+
+[node name="WorldEnvironment" type="WorldEnvironment" parent="." unique_id=1587602226]
+environment = SubResource("Environment_iiida")
+
+[node name="StraightRoad" parent="." unique_id=483779229 instance=ExtResource("1_eucx4")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.1401978, 0, 0.9326172)
+
+[node name="Ch14_nonPBR" parent="." unique_id=2045060967 instance=ExtResource("2_4gloa")]
+transform = Transform3D(3, 0, 0, 0, 3, 0, 0, 0, 3, -1.6985474, 0.5981703, -0.51452637)
